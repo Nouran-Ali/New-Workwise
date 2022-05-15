@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Workwise - Messages</title>
+    </head>
+    <body class="body-index">
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img class="logo-workwise logo-index" src="img/logo-index.png" ></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex">
+                  <input class="form-control me-2 searchInput" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <img class="icon" style="margin-left: 19px;" src="img/Home_50px.png">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <img class="icon" style="margin-left: 38px;" src="img/Company_50px.png">
+                    <a class="nav-link" href="#">Companies</a>
+                  </li>
+                  <li class="nav-item">
+                    <img class="icon" style="margin-left: 25px;" src="img/Puzzle_50px.png">
+                    <a class="nav-link" href="#">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <img class="icon" style="margin-left: 23px;" src="img/People_50px.png">
+                    <a class="nav-link" href="#">Profiles</a>
+                  </li>
+                  <li class="nav-item">
+                    <img class="icon" style="margin-left: 14px;" src="img/Job Seeker_50px.png">
+                    <a class="nav-link" href="#">Jobs</a>
+                  </li>
+                  <li class="nav-item">
+                    <img class="icon" style="margin-left: 32px;" src="img/Secured Letter_50px.png">
+                    <a class="nav-link" href="#">Messages</a>
+                  </li>
+                  <li class="nav-item">
+                    <img class="icon" style="margin-left: 39px;" src="img/Quick Mode On_50px.png">
+                    <a class="nav-link" href="#">Notification</a>
+                  </li>
+                  <div class="line-nav"></div>
+                  <img class="john-image" src="img/John.jpg">
+                  <li class="nav-item dropdown" style="margin-top: 6px;">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        John
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <p class="dropdown-item">Setting</p>
+                        <hr>
+                        <a class="dropdown-item" href="#">Account Setting</a>
+                        <a class="dropdown-item" href="#">Privacy</a>
+                        <a class="dropdown-item" href="#">Faqs</a>
+                        <a class="dropdown-item" href="#">Terms & Conditions</a>
+                        <hr>
+                        <a class="dropdown-item" href="sign-in.html">Log out</a>
+                    </div>
+                </li>
+                <div class="line-nav"></div>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <div class="row cont-messages" id="scrollingMessages">
+            <div class="col-3 messages">
+              <p class="title-messages">Messages</p>
+              <a href="#"><img src="img/Menu Vertical_48px.png" class="icon-points"></a>
+              <hr>
+              <a href="#" onclick="chat()">
+                <div style="background: #ebebeb;margin-top: -16px;cursor: pointer;">
+                  <img src="img/137296624_1762857667216023_5001889832414271592_n.jpg" class="personal-images">
+                  <h6>Jessica William</h6>
+                  <span class="time">1:55 PM</span><br>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  <span class="number-messages">1</span>
+                </div>
+              </a>
+
+              <a href="#" onclick="chat1()">
+                <div style="border-bottom: 1px solid #DDD;cursor: pointer;">
+                  <img src="img/52540441_318597819008786_940723731905380352_n.jpg" class="personal-images">
+                  <h6>John Doe</h6>
+                  <span class="time">11:35 PM</span><br>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+              </a>
+
+              <a href="#" onclick="chat2()">
+                <div style="border-bottom: 1px solid #DDD;cursor: pointer;">
+                  <img src="img/images (1).jpg" class="personal-images">
+                  <h6>Poonam</h6>
+                  <span class="time">00:01 AM</span><br>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+              </a>
+
+              <a href="#" onclick="chat3()">
+                <div style="border-bottom: 1px solid #DDD;cursor: pointer;">
+                  <img src="img/depositphotos_34490345-stock-photo-confident-casual-unshaven-young-man.jpg" class="personal-images">
+                  <h6>Bill Gates</h6>
+                  <span class="time">oct 11</span><br>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+              </a>
+
+              <a href="#" onclick="chat4()">
+                <div style="background: #ebebeb;cursor: pointer;">
+                  <img src="img/138074050_3724079107615032_3895583162190385421_n.jpg" class="personal-images">
+                  <h6>John Doe</h6>
+                  <span class="time">Jule 23</span><br>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  <span class="number-messages">3</span>
+                </div>
+              </a>
+
+              <a href="#" onclick="chat5()">
+                <div style="border-bottom: 1px solid #DDD;cursor: pointer;">
+                  <img src="img/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg" class="personal-images">
+                  <h6>Elina</h6>
+                  <span class="time">Jule 20</span><br>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+              </a>
+
+              <a href="#" onclick="chat6()">
+                <div style="border-bottom: 1px solid #DDD;cursor: pointer;">
+                  <img src="img/mand-holding-cup_1258-340.jpg" class="personal-images">
+                  <h6>John Doe</h6>
+                  <span class="time">Jule 11</span><br>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+              </a>
+              
+            </div>
+            <div class="col-9 person-message">
+              <div style="background: #e44d3a;height: 93px;">
+                <img src="img/137296624_1762857667216023_5001889832414271592_n.jpg" class="personal-images" id="personalImages">
+                <h6 style="color: white;" id="personalName">Jessica William</h6><br>
+                <span class="time">Online</span><br>
+              </div>
+              <div class="message" style="height: 350px;overflow-y: scroll;">
+                <img src="img/137296624_1762857667216023_5001889832414271592_n.jpg" class=" personal-images" style="margin-top: -14px;" id="personalImagesChat">
+                <p class="left">Hi	&#128512;</p><br><br>
+                <img src="img/John.jpg" class="personal-images" style="float: right;margin-right: 13px;">
+                <p class="right">Hi Jessica	&#128515;</p><br><br>
+                <img src="img/137296624_1762857667216023_5001889832414271592_n.jpg" class=" personal-images" style="margin-top: -14px;" id="personalImagesChat1">
+                <p class="left">What's up?</p><br><br>
+                <img src="img/John.jpg" class="personal-images" style="float: right;margin-right: 13px;">
+                <p class="right">cool<br> and you?</p><br><br><br><br>
+                <img src="img/137296624_1762857667216023_5001889832414271592_n.jpg" class=" personal-images" style="margin-top: -14px;" id="personalImagesChat2">
+                <p class="left">Cool.<br>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Reiciendis nisi culpa dolor molestiae dolore rerum harum?<br> Dolores est ipsam voluptatem quia, qui deleniti quibusdam aut alias dignissimos.<br> Quas, provident sit.</p><br><br>
+                <img src="img/John.jpg" class="personal-images" style="float: right;margin-right: 13px;">
+                <p class="right">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Reiciendis nisi culpa dolor molestiae dolore rerum harum?<br> Dolores est ipsam voluptatem quia, qui deleniti quibusdam aut alias dignissimos.<br> Quas, provident sit.</p><br><br><br><br><br><br><br>
+                <span id="myImg"></span>
+                <span id="demo"></span><br><br><br>
+              </div>
+
+              <div class="type-message" style="background: #ebebeb;height: 97px;">
+                <!-- <input type="text" name="message" placeholder="Type a message here" class="inp-message"> -->
+                <input type="text" id="myText" placeholder="Type a message here" class="inp-message">
+                <input type="submit" value="Send" class="send-message" onclick="sendMessage()">
+
+                <div class="btn-group dropup">
+                  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="img/Wink_50px.png">
+                  </button>
+                  <div class="dropdown-menu" style="padding: 12px; width: 500px;">
+                    <a href="#" onclick="addEmoji()" id="emoji">&#128512;</a>
+                    <a href="#" onclick="addEmoji1()" id="emoji1">&#128513;</a>
+                    <a href="#" onclick="addEmoji2()" id="emoji2">&#128514;</a>
+                    <a href="#" onclick="addEmoji3()" id="emoji3">&#128515;</a>
+                    <a href="#" onclick="addEmoji4()" id="emoji4">&#128516;</a>
+                    <a href="#" onclick="addEmoji5()" id="emoji5">&#128517;</a>
+                    <a href="#" onclick="addEmoji6()" id="emoji6">&#128525;</a>
+                    <a href="#" onclick="addEmoji7()" id="emoji7">&#128516;</a>
+                    <a href="#" onclick="addEmoji8()" id="emoji8">&#128580;</a>
+                    <a href="#" onclick="addEmoji9()" id="emoji9">&#128579;</a>
+                    <a href="#" onclick="addEmoji10()" id="emoji10">&#128578;</a>
+                    <a href="#" onclick="addEmoji11()" id="emoji11">&#128577;</a>
+                    <a href="#" onclick="addEmoji12()" id="emoji12">&#128567;</a>
+                    <a href="#" onclick="addEmoji13()" id="emoji13">&#128566;</a>
+                    <a href="#" onclick="addEmoji14()" id="emoji14">&#128565;</a>
+                    <a href="#" onclick="addEmoji15()" id="emoji15">&#128564;</a>
+                    <a href="#" onclick="addEmoji16()" id="emoji16">&#128563;</a>
+                    <a href="#" onclick="addEmoji17()" id="emoji17">&#128562;</a>
+                    <a href="#" onclick="addEmoji18()" id="emoji18">&#128561;</a>
+                    <a href="#" onclick="addEmoji19()" id="emoji19">&#128560;</a>
+                    <a href="#" onclick="addEmoji20()" id="emoji20">&#128559;</a>
+                    <a href="#">&#128558;</a>
+                    <a href="#">&#128557;</a>
+                    <a href="#">&#128556;</a>
+                    <a href="#">&#128555;</a>
+                    <a href="#">&#128554;</a>
+                    <a href="#">&#128553;</a>
+                    <a href="#">&#128552;</a>
+                    <a href="#">&#128551;</a>
+                    <a href="#">&#128550;</a>
+                    <a href="#">&#128549;</a>
+                    <a href="#">&#128548;</a>
+                    <a href="#">&#128547;</a>
+                    <a href="#">&#128546;</a>
+                    <a href="#">&#128545;</a>
+                    <a href="#">&#128544;</a>
+                    <a href="#">&#128543;</a>
+                    <a href="#">&#128542;</a>
+                    <a href="#">&#128541;</a>
+                    <a href="#">&#128540;</a>
+                    <a href="#">&#128539;</a>
+                    <a href="#">&#128538;</a>
+                    <a href="#">&#128537;</a>
+                    <a href="#">&#128536;</a>
+                    <a href="#">&#128535;</a>
+                    <a href="#">&#128534;</a>
+                    <a href="#">&#128533;</a>
+                    <a href="#">&#128532;</a>
+                    <a href="#">&#128531;</a>
+                    <a href="#">&#128530;</a>
+                    <a href="#">&#128529;</a>
+                    <a href="#">&#128528;</a>
+                    <a href="#">&#128527;</a>
+                    <a href="#">&#128526;</a>
+                    <a href="#">&#128525;</a>
+                    <a href="#">&#128524;</a>
+                    <a href="#">&#128523;</a>
+                    <a href="#">&#128522;</a>
+                    <a href="#">&#128521;</a>
+                    <a href="#">&#128520;</a>
+                    <a href="#">&#128519;</a>
+                    <a href="#">&#128518;</a>
+                    <a href="#">&#128517;</a>
+                    <a href="#">&#128516;</a>
+                    <a href="#">&#128543;</a>
+                    <a href="#">&#128543;</a>
+                    <a href="#">&#128543;</a>
+                    <a href="#">&#129296;</a>
+                    <a href="#">&#129297;</a>
+                    <a href="#">&#129298;</a>
+                    <a href="#">&#129299;</a>
+                    <a href="#">&#129300;</a>
+                    <a href="#">&#129301;</a>
+                    <a href="#">&#129303;</a>
+                    <a href="#">&#129312;</a>
+                    <a href="#">&#129312;</a>
+                    <a href="#">&#129314;</a>
+                    <a href="#">&#129315;</a>
+                    <a href="#">&#129316;</a>
+                    <a href="#">&#129317;</a>
+                    <a href="#">&#129318;</a>
+                    <a href="#">&#129319;</a>
+                    <a href="#">&#129320;</a>
+                    <a href="#">&#129321;</a>
+                    <a href="#">&#129322;</a>
+                    <a href="#">&#129323;</a>
+                    <a href="#">&#129324;</a>
+                    <a href="#">&#129325;</a>
+                    <a href="#">&#129326;</a>
+                    <a href="#">&#129327;</a>
+                    <a href="#">&#129488;</a>
+                    <a href="#">&#129489;</a>
+                    <a href="#">&#129490;</a>
+                    <a href="#">&#129491;</a>
+                    <a href="#">&#129492;</a>
+                    <a href="#">&#129493;</a>
+                    <a href="#">&#129494;</a>
+                    <a href="#">&#129503;</a>
+                    <a href="#">&#129335;</a>
+                    <a href="#">&#129329;</a>
+                    <a href="#">&#129302;</a>
+                    <a href="#">&#128694;</a>
+                    <br>
+                    <a href="#">&#128150;</a>
+                    <a href="#">&#128158;</a>
+                    <a href="#">&#128149;</a>
+                    <a href="#">&#128152;</a>
+                    <a href="#">&#128420;</a>
+                    <a href="#">&#128157;</a>
+                    <a href="#">&#128156;</a>
+                    <a href="#">&#128155;</a>
+                    <a href="#">&#128154;</a>
+                    <a href="#">&#128153;</a>
+                    <a href="#">&#129505;</a>
+                    <a href="#">&#128151;</a>
+                    <a href="#">&#128147;</a>
+                    <a href="#">&#128148;</a>
+                    <a href="#">&#128143;</a>
+                    <a href="#">&#128144;</a>
+                    <a href="#">&#128145;</a>
+                    <a href="#">&#128146;</a>
+                    <a href="#">&#128140;</a>
+
+                    <a href="#">&#127761;</a>
+                    <a href="#">&#127762;</a>
+                    <a href="#">&#127763;</a>
+                    <a href="#">&#127764;</a>
+                    <a href="#">&#127765;</a>
+                    <a href="#">&#127766;</a>
+                    <a href="#">&#127767;</a>
+                    <a href="#">&#127768;</a>
+                    <a href="#">&#127769;</a>
+                    <a href="#">&#127770;</a>
+                    <a href="#">&#127771;</a>
+                    <a href="#">&#127772;</a>
+                    <a href="#">&#127773;</a>
+                    <a href="#">&#127774;</a>
+                    <a href="#">&#127800;</a>
+                    <a href="#">&#127799;</a>
+                    <a href="#">&#127801;</a>
+                    <a href="#">&#127802;</a>
+                    <a href="#">&#127803;</a>
+                    <a href="#">&#127804;</a>
+
+                    <a href="#">&#9994;</a>
+                    <a href="#">&#9995;</a>
+                    <a href="#">&#9996;</a>
+                    <a href="#">&#9997;</a>
+                    <a href="#">&#128070;</a>
+                    <a href="#">&#128071;</a>
+                    <a href="#">&#128072;</a>
+                    <a href="#">&#128073;</a>
+                    <a href="#">&#128074;</a>
+                    <a href="#">&#128075;</a>
+                    <a href="#">&#128076;</a>
+                    <a href="#">&#128077;</a>
+                    <a href="#">&#128078;</a>
+                    <a href="#">&#128079;</a>
+                    <a href="#">&#128080;</a>
+                    <a href="#">&#128069;</a>
+                    <a href="#">&#128068;</a>
+                    <a href="#">&#128067;</a>
+                    <a href="#">&#128066;</a>
+                    <a href="#">&#128065;</a>
+                    <a href="#">&#128064;</a>
+                    <a href="#">&#128133;</a>
+                    <a href="#">&#128139;</a>
+                    <a href="#">&#128400;</a>
+                    <a href="#">&#128406;</a>
+                    <a href="#">&#128588;</a>
+                    <a href="#">&#128591;</a>
+                    <a href="#">&#129304;</a>
+                    <a href="#">&#129305;</a>
+                    <a href="#">&#129306;</a>
+                    <a href="#">&#129307;</a>
+                    <a href="#">&#129308;</a>
+                    <a href="#">&#129309;</a>
+                    <a href="#">&#129310;</a>
+                    <a href="#">&#129311;</a>
+                    <a href="#">&#129330;</a>
+                    <br>
+                    <a href="#">&#128568;</a>
+                    <a href="#">&#128569;</a>
+                    <a href="#">&#128570;</a>
+                    <a href="#">&#128571;</a>
+                    <a href="#">&#128572;</a>
+                    <a href="#">&#128573;</a>
+                    <a href="#">&#128574;</a>
+                    <a href="#">&#128575;</a>
+                    <a href="#">&#128576;</a>
+
+                    <a href="#">&#128584;</a>
+                    <a href="#">&#128585;</a>
+                    <a href="#">&#128586;</a>
+                    <a href="#">&#128060;</a>
+                    <a href="#">&#128059;</a>
+                    <a href="#">&#128058;</a>
+                    <a href="#">&#128057;</a>
+                    <a href="#">&#128056;</a>
+                    <a href="#">&#128055;</a>
+                    <a href="#">&#128054;</a>
+                    <a href="#">&#128053;</a>
+                    <a href="#">&#128052;</a>
+                    <a href="#">&#128051;</a>
+                    <a href="#">&#128050;</a>
+                    <a href="#">&#128049;</a>
+                    <a href="#">&#128048;</a>
+                    <a href="#">&#128047;</a>
+                    <a href="#">&#128046;</a>
+                    <a href="#">&#128045;</a>
+                    <a href="#">&#128044;</a>
+                    <a href="#">&#128043;</a>
+                    <a href="#">&#128042;</a>
+                    <a href="#">&#128041;</a>
+                    <a href="#">&#128040;</a>
+                    <a href="#">&#128039;</a>
+                    <a href="#">&#128038;</a>
+                    <a href="#">&#128037;</a>
+                    <a href="#">&#128035;</a>
+                    <a href="#">&#128034;</a>
+                    <a href="#">&#128033;</a>
+                    <a href="#">&#128032;</a>
+                    <a href="#">&#128024;</a>
+                    <a href="#">&#128023;</a>
+                    <a href="#">&#128022;</a>
+                    <a href="#">&#128021;</a>
+                    <a href="#">&#128020;</a>
+                    <a href="#">&#128019;</a>
+                    <a href="#">&#128018;</a>
+                    <a href="#">&#128017;</a>
+                    <a href="#">&#128016;</a>
+                    <a href="#">&#128015;</a>
+                    <a href="#">&#128014;</a>
+                    <a href="#">&#128013;</a>
+                    <a href="#">&#128012;</a>
+                    <a href="#">&#128011;</a>
+                    <a href="#">&#128010;</a>
+                    <a href="#">&#128009;</a>
+                    <a href="#">&#128008;</a>
+                    <a href="#">&#128007;</a>
+                    <a href="#">&#128006;</a>
+                    <a href="#">&#128005;</a>
+                    <a href="#">&#128004;</a>
+                    <a href="#">&#128003;</a>
+                    <a href="#">&#128002;</a>
+                    <a href="#">&#128001;</a>
+                    <a href="#">&#128000;</a>
+
+                    <a href="#">&#128511;</a>
+                    <a href="#">&#128510;</a>
+                    <a href="#">&#128509;</a>
+                    <a href="#">&#128508;</a>
+                    <a href="#">&#128507;</a>
+
+
+                  </div>
+                </div>
+                <img src="img/Attach_52px.png" width="20px">
+
+              </div>
+              
+            </div>
+          </div>
+
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+          <script src="js/bobber.min.js"></script>
+          <script src="js/jquery-3.5.0.min.js"></script>
+          <script src="js/bootstrap.js"></script>
+          <script src="js/script.js"></script>
+    </body>
+</html>
